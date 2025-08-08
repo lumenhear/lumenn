@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMEN Speech and Hearing Care | Hisar</title>
+    <meta name="description" content="LUMEN Speech and Hearing Care offers expert audiology and speech therapy services in Hisar, Haryana. Empowering better hearing and communication.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <i class="fas fa-ear-listen logo-icon"></i>
+                <span>LUMEN</span>
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#booking" class="btn btn-primary">Book an Appointment</a>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="animate-on-load">Empowering Better Hearing and Communication</h1>
+                <p class="animate-on-load">State-of-the-art hearing and speech care in Hisar, Haryana.</p>
+                <a href="#booking" class="btn btn-secondary animate-on-load">Book a Free Consultation</a>
+            </div>
+        </section>
+
+        <section class="trust-banner">
+            <div class="container">
+                <div class="trust-item">
+                    <i class="fas fa-check-circle"></i>
+                    <p>Government-Approved Tests</p>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-user-doctor"></i>
+                    <p>Certified Audiologists & Pathologists</p>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-hand-holding-dollar"></i>
+                    <p>EMI Options Available</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services-section section-padding">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Our Services</h2>
+                    <p>Comprehensive solutions for your hearing and speech needs.</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i class="fas fa-headphones-simple"></i>
+                        <h3>Pure Tone Audiometry (PTA)</h3>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-wave-square"></i>
+                        <h3>Impedance Audiometry</h3>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-ear-listen"></i>
+                        <h3>OAE (Otoacoustic Emissions)</h3>
+                    </div>
+                     <div class="service-card">
+                        <i class="fas fa-brain"></i>
+                        <h3>BERA / ABR</h3>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-bone"></i>
+                        <h3>BC ABR</h3>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-hand-holding-heart"></i>
+                        <h3>Hearing Aid Fitting & Trial</h3>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-screwdriver-wrench"></i>
+                        <h3>Hearing Aid Servicing</h3>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-comments"></i>
+                        <h3>Speech Therapy</h3>
+                    </div>
+                     <div class="service-card">
+                        <i class="fas fa-child"></i>
+                        <h3>Language Delay Therapy</h3>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-microphone-lines"></i>
+                        <h3>Voice Therapy</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="why-choose-us-section section-padding">
+            <div class="container">
+                 <div class="section-title">
+                    <h2>Your Partners in Better Communication</h2>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-item">
+                         <i class="fas fa-charging-station"></i>
+                        <h3>Latest Digital Hearing Aids</h3>
+                        <p>We offer the most advanced rechargeable and invisible models to fit your lifestyle perfectly.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-house-chimney-medical"></i>
+                        <h3>Home Visits Available</h3>
+                        <p>Care at your convenience. We provide professional consultations and services at your home on request.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-user-graduate"></i>
+                        <h3>Expert & Certified Team</h3>
+                        <p>Our audiologists and speech-language pathologists are fully certified and dedicated to personalized care.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="booking" class="booking-section section-padding">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Take the First Step</h2>
+                    <p>Fill out the form below to book your appointment.</p>
+                </div>
+                <form id="appointment-form" class="appointment-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="service" name="service" required>
+                            <option value="">Select Preferred Service</option>
+                            <option value="PTA">Pure Tone Audiometry (PTA)</option>
+                            <option value="Hearing Aid Trial">Hearing Aid Fitting & Trial</option>
+                            <option value="Speech Therapy">Speech Therapy</option>
+                            <option value="Consultation">General Consultation</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                       <select id="timing" name="timing" required>
+                            <option value="">Select Preferred Timing</option>
+                            <option value="Morning">Morning (10 AM - 1 PM)</option>
+                            <option value="Afternoon">Afternoon (2 PM - 6 PM)</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-secondary">Submit Request</button>
+                </form>
+                <p id="form-confirmation" class="form-confirmation"></p>
+            </div>
+        </section>
+
+        <section class="testimonials-section section-padding">
+            <div class="container">
+                <div class="section-title">
+                    <h2>What Our Patients Say</h2>
+                </div>
+                <div class="testimonial-grid">
+                    <div class="testimonial-card">
+                        <p>"The team at LUMEN is incredibly professional and caring. They helped my father find the perfect hearing aid, and his quality of life has improved so much."</p>
+                        <h4>- S. Kumar</h4>
+                    </div>
+                     <div class="testimonial-card">
+                        <p>"Excellent speech therapy for my daughter. The therapists are patient and knowledgeable. We saw progress within a few weeks. Highly recommended."</p>
+                        <h4>- A. Sharma</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="#" class="logo">
+                        <i class="fas fa-ear-listen logo-icon"></i>
+                        <span>LUMEN</span>
+                    </a>
+                    <p class="tagline">Empowering Better Hearing and Communication</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-location-dot"></i> Hisar, Haryana</p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+919350158754">+91 93501 58754</a></p>
+                    <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/919350158754" target="_blank">+91 93501 58754</a></p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:lumenhearingcare@gmail.com">lumenhearingcare@gmail.com</a></p>
+                </div>
+                <div class="footer-col">
+                    <h3>Working Hours</h3>
+                    <p>Monday – Saturday</p>
+                    <p>10:00 AM to 6:00 PM</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/lumenhearingcare" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 LUMEN Speech and Hearing Care. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
