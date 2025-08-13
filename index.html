@@ -141,37 +141,76 @@
 
         <section id="booking" class="booking-section section-padding">
             <div class="container">
-                <div class="section-title">
-                    <h2>Take the First Step</h2>
-                    <p>Fill out the form below to book your appointment.</p>
-                </div>
-                <form id="appointment-form" class="appointment-form">
-                    <div class="form-group">
-                        <input type="text" id="name" name="name" placeholder="Full Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
-                    </div>
-                    <div class="form-group">
-                        <select id="service" name="service" required>
-                            <option value="">Select Preferred Service</option>
-                            <option value="PTA">Pure Tone Audiometry (PTA)</option>
-                            <option value="Hearing Aid Trial">Hearing Aid Fitting & Trial</option>
-                            <option value="Speech Therapy">Speech Therapy</option>
-                            <option value="Consultation">General Consultation</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                       <select id="timing" name="timing" required>
-                            <option value="">Select Preferred Timing</option>
-                            <option value="Morning">Morning (10 AM - 1 PM)</option>
-                            <option value="Afternoon">Afternoon (2 PM - 6 PM)</option>
-                        </select>
-                    </div>
-                    <button type="submit" class="btn btn-secondary">Submit Request</button>
-                </form>
-                <p id="form-confirmation" class="form-confirmation"></p>
+                <h2 class="section-title">Contact & Book an Appointment</h2>
+    <div class="row g-4">
+      <div class="col-lg-6">
+        <div class="card p-4 form-card">
+          <form action="https://formsubmit.co/lumenhearingcare@gmail.com" method="POST">
+            <!-- FormSubmit hidden fields -->
+            <input type="hidden" name="_subject" value="New Appointment Request - LUMEN Hearing">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="box">
+            <input type="hidden" name="_next" value="https://lumen-website.github.io/thank-you.html">
+
+            <div class="mb-3">
+              <label class="form-label">Full Name <span class="text-danger">*</span></label>
+              <input type="text" name="name" class="form-control" required>
             </div>
+
+            <div class="mb-3">
+              <label class="form-label">Phone Number <span class="text-danger">*</span></label>
+              <input type="tel" name="phone" class="form-control" required pattern="[0-9+\s\-]{6,}">
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Email (optional)</label>
+              <input type="email" name="email" class="form-control">
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Preferred Service</label>
+              <select name="service" class="form-select" required>
+                <option value="Pure Tone Audiometry">Pure Tone Audiometry (PTA)</option>
+                <option value="Impedance Audiometry">Impedance Audiometry</option>
+                <option value="OAE">OAE</option>
+                <option value="BERA">BERA / ABR</option>
+                <option value="Hearing Aid Fitting">Hearing Aid Fitting</option>
+                <option value="Hearing Aid Servicing">Hearing Aid Servicing</option>
+                <option value="Speech Therapy">Speech Therapy</option>
+                <option value="Language Delay Therapy">Language Delay Therapy</option>
+                <option value="Voice Therapy">Voice Therapy</option>
+              </select>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Preferred Date & Time</label>
+              <input type="datetime-local" name="preferred_datetime" class="form-control">
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Clinic Location</label>
+              <select name="location" class="form-select" required>
+                <option value="Hisar">Hisar (Main)</option>
+              </select>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Additional Notes</label>
+              <textarea name="notes" rows="3" class="form-control"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Book Now</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="card p-4">
+          <h5>Contact Info</h5>
+          <p class="mb-1"><strong>Phone / WhatsApp:</strong> <a href="tel:+919350158754">+91 93501 58754</a></p>
+          <p class="mb-1"><strong>Email:</strong> lumenhearingcare@gmail.com</p>
+          <p class="mb-1"><strong>Address:</strong> Hisar, Haryana (Exact address shown on map)</p>
+          <p class="mb-1"><strong>Working Hours:</strong> Mon–Sat | 10:00 AM to 6:00 PM</p>
         </section>
 
         <section class="testimonials-section section-padding">
